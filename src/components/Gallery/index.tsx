@@ -4,7 +4,9 @@ import styled from "styled-components"
 const Container = styled.div`
   display: flex;
   background-color: orange;
-  align-items: center;
+  position: relative;
+  left: -25px;
+  width: 100vw;
   img {
     height: 300px;
     width: 100%;

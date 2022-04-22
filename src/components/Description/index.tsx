@@ -1,23 +1,25 @@
 import { FC } from "react"
-import styled from "styled-components"
+import styled, { css } from "styled-components"
 
 const Container = styled.div`
-  margin: 25px 20px;
-  h3 {
-    text-transform: uppercase;
-    color: #e3975a;
-    font-size: 14px;
-    letter-spacing: 1px;
-  }
-  h2 {
-    font-size: 30px;
-    line-height: 36px;
+  ${({ theme }) => css`
     margin: 20px 0;
-  }
-  p {
-      color: #777A81;
+    h3 {
+      text-transform: uppercase;
+      color: ${theme.colors.orange};
+      font-size: 14px;
+      letter-spacing: 1px;
+    }
+    h2 {
+      font-size: 30px;
+      line-height: 36px;
+      margin: 20px 0;
+    }
+    p {
+      color: ${theme.colors.grey};
       line-height: 26px;
-  }
+    }
+  `}
 `
 
 const Description: FC = () => {
