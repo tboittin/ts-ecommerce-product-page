@@ -9,11 +9,12 @@ const Container = styled.div`
       color: ${theme.colors.orange};
       font-size: 14px;
       letter-spacing: 1px;
+      margin: 10px 0;
     }
     h2 {
       font-size: 30px;
       line-height: 36px;
-      margin: 20px 0;
+      margin: 10px 0;
     }
     p {
       color: ${theme.colors.grey};
