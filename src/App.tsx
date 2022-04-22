@@ -4,6 +4,7 @@ import Gallery from "./components/Gallery"
 import Description from "./components/Description"
 import Price from "components/Price"
 import styled, { css } from "styled-components"
+import AddToCart from "components/AddToCart"
 
 const Container = styled.div`
   ${({ theme }) => css`
@@ -18,6 +19,7 @@ function App() {
       <Gallery />
       <Description />
       <Price />
+      <AddToCart/>
     </Container>
   )
 }
