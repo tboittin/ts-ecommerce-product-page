@@ -17,7 +17,7 @@ const Container = styled.div`
         font-weight: bold;
         color: ${theme.colors.orange};
         background-color: ${theme.colors.lightOrange};
-        padding: 5px;
+        padding: 5px 8px;
         margin-left: 15px;
         border-radius: 4px;
       }
